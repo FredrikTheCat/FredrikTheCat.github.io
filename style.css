@@ -1,0 +1,43 @@
+body{
+    height:100vh;
+}
+
+nav{
+    grid-area:n;
+    background-color:rgb(67, 51, 87);
+}
+
+header{
+    grid-area:h;
+    background-color:rgb(27, 28, 42);
+}
+
+aside{
+    grid-area:a;
+    background-color:rgb(27, 28, 42)
+}
+
+main{
+    grid-area:m;
+    background-color:rgb(46, 49, 85);
+}
+
+meow{
+    grid-area:c;
+    background-color:rgb(46, 49, 85)
+
+}
+
+footer{
+    grid-area:f;
+    background-color:rgb(55, 55, 55)
+
+}
+
+#container{
+display:grid;
+height:100%;
+grid-template-columns: 
+
+
+}
