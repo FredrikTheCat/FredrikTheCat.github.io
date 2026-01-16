@@ -14,7 +14,7 @@ header{
 
 aside{
     grid-area:a;
-    background-color:rgb(27, 28, 42)
+    background-color:rgb(138, 142, 209)
 }
 
 main{
@@ -22,9 +22,9 @@ main{
     background-color:rgb(46, 49, 85);
 }
 
-meow{
+#meow{
     grid-area:c;
-    background-color:rgb(46, 49, 85)
+    background-color:rgb(108, 115, 191)
 
 }
 
@@ -37,7 +37,15 @@ footer{
 #container{
 display:grid;
 height:100%;
-grid-template-columns: 
+grid-template-columns: 50% 50%;
+grid-template-rows: 30% 100% 100% 40%;
+
+grid-template-areas: 
+
+"n n"
+"a h"
+"m c"
+"f f"
 
 
 }
