@@ -50,9 +50,8 @@ grid-template-areas:
 }
 
 @media screen and(max-width:800px){
-S
-#container{
 
+#container{
 grid-template-columns:100%;
 grid-template-rows: 30% 100% 100% 100% 100% 40%;
 
