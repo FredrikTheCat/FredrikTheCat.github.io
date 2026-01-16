@@ -45,7 +45,7 @@ grid-template-areas:
 "n n"
 "a h"
 "m c"
-"f f"
+"f f";
 
 }
 
@@ -61,7 +61,7 @@ grid-template-areas:
 "h"
 "c"
 "m"
-"f"
+"f";
 
 
 }
