@@ -47,5 +47,23 @@ grid-template-areas:
 "m c"
 "f f"
 
+}
 
+@media screen and (max width:800px){
+
+#container{
+
+grid-template-columns:100%;
+grid-template-rows: 30% 100% 100% 100% 100% 40%;
+
+grid-template-areas:
+"n"
+"a"
+"h"
+"c"
+"m"
+"f"
+
+
+}
 }
