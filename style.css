@@ -5,6 +5,7 @@ body{
 nav{
     grid-area:n;
     background-color:rgb(67, 51, 87);
+    color:white;
 }
 
 header{
