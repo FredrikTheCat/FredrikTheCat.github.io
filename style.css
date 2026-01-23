@@ -12,12 +12,12 @@ header{
     background-color:rgb(27, 28, 42);
 }
 
-aside{
+#aside{
     grid-area:a;
     background-color:rgb(138, 142, 209)
 }
 
-main{
+#main{
     grid-area:m;
     background-color:rgb(46, 49, 85);
 }
@@ -28,7 +28,7 @@ main{
 
 }
 
-footer{
+#footer{
     grid-area:f;
     background-color:rgb(55, 55, 55)
 
