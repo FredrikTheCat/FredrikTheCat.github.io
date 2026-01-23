@@ -14,7 +14,8 @@ header{
 
 #aside{
     grid-area:a;
-    background-color:rgb(138, 142, 209)
+    background-color:rgb(138, 142, 209);
+    color:white;
 }
 
 #main{
