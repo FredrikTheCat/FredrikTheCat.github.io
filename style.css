@@ -2,12 +2,21 @@ body{
     height:100vh;
 }
 
+html{
+font-size:20px;
+
+}
+
 a{
 color:white;
-font-size:40px;
-font-family:'Courier New', Courier, monospace;
 text-align:center;
 
+}
+
+.barlow-semi-condensed-thin {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 nav{
@@ -30,6 +39,7 @@ header{
 #main{
     grid-area:m;
     background-color:rgb(46, 49, 85);
+    font
 }
 
 #bildbil{
@@ -73,4 +83,52 @@ grid-template-areas:
 "m"
 "f";
 }
+}
+
+.sprite {
+    background-image: url(img/bilmedswimmingpool.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-bilmedswimmingpool {
+    width: 500px;
+    height: 525px;
+    background-position: -5px -5px;
+}
+
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -515px -5px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -515px -45px;
+}
+
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -515px -85px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -515px -125px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -515px -165px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -515px -205px;
 }
