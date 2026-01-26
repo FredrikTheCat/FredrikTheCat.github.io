@@ -86,7 +86,7 @@ grid-template-areas:
 }
 
 .sprite {
-    background-image: url(img/bilmedswimmingpool.png);
+    background-image: url(bilder/img/bilmedswimmingpool.png);
     background-repeat: no-repeat;
     display: block;
 }
@@ -94,6 +94,18 @@ grid-template-areas:
 .sprite-bilmedswimmingpool {
     width: 500px;
     height: 525px;
+    background-position: -5px -5px;
+}
+
+.sprite {
+    background-image: url(bilder/img/bilsomkör.jpg);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-bilsomk_r {
+    width: 500px;
+    height: 514px;
     background-position: -5px -5px;
 }
 
